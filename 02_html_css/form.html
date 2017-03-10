@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Exercise 02-2 HTML Form</title>
+</head>
+
+<body>
+<form action="http://127.0.0.1/wsd-grader/html_form_check" method="post">
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" name="email" type="text" />
+	</div>
+	<div>
+		<label for="passwd">Password:</label>
+		<input id="passwd" name="passwd" type="password" />
+	</div>
+	<div>
+		<label for="passwd2">Repeat password:</label>
+		<input id="passwd2" name="passwd2" type="password" />
+	</div>
+	<div>
+		<label for="lang">Language:</label>
+		<select id="lang" name="lang">
+			<option value="sv">Swedish</option>
+			<option value="fi">Finnish</option>
+			<option value="no">Norwegian</option>
+			<option value="da">Danish</option>
+			<option value="is">Icelandic</option>
+		</select>
+	</div>
+	<div>
+		<label for="terms">
+		<input type="checkbox" id="terms" name="terms">
+		I accept terms and conditions
+		</label>
+	</div>
+	<div>
+		<button type="submit">Register</button>
+	</div>
+</form>
+
+</body>
+</html>
